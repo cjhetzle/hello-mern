@@ -2,19 +2,17 @@
     "version": "0.2.0",
     "configurations": [
       {
-        "name": "ng serve",
-        "type": "msedge",
+        "name": "start app",
+        "type": "node",
         "request": "launch",
-        "preLaunchTask": "npm: start",
-        "url": "http://localhost:4200/#",
-        "webRoot": "${workspaceFolder}/door-app"
+        "preLaunchTask": "npm start frontend"
       },
       {
-        "name": "ng test",
+        "name": "test app",
         "type": "msedge",
         "request": "launch",
         "url": "http://localhost:9876/debug.html",
-        "webRoot": "${workspaceFolder}/door-app"
+        "webRoot": "${workspaceFolder}/frontend"
       },
       {
         "name": "ng e2e",

@@ -2,6 +2,7 @@
     "version": "2.0.0",
     "tasks": [
       {
+        "label": "npm start frontend",
         "type": "npm",
         "script": "start",
         "isBackground": true,
@@ -33,7 +34,7 @@
           }
         },
         "options": {
-          "cwd": "${workspaceFolder}/door-app"
+          "cwd": "${workspaceFolder}/frontend"
         },
       },
     ]
